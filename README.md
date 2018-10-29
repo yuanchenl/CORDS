@@ -30,7 +30,7 @@ sudo update-alternatives --config g++;
 ### c. Application binaries
 Cords intends to test different distributed storage systems. You need to install your target distributed storage system. For example, to if you want to test ZooKeeper-3.4.8, you need to:
 
-wget http://www.webhostingreviewjam.com/mirror/apache/zookeeper/zookeeper-3.4.8/zookeeper-3.4.8.tar.gz; tar -xvzf zookeeper-3.4.8.tar.gz
+wget http://mirrors.ocf.berkeley.edu/apache/zookeeper/zookeeper-3.4.12/zookeeper-3.4.12.tar.gz; tar -xvzf zookeeper-3.4.12.tar.gz
 
 Also, you need to build and install the ZooKeeper binaries (you will need JDK, JRE, and maven for this). Similarly, you need to build and install all its dependencies. 
 
